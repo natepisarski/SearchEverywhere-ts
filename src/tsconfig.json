@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "outFile": "../dist/index.js",
+    "module": "amd"
+  },
+  "files": [
+    "util.ts",
+    "algorithm.ts",
+    "searchTarget.ts",
+    "action.ts"
+  ],
+  "types": [
+    "chrome"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

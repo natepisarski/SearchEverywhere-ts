@@ -1,0 +1,19 @@
+{
+  "name": "Search Everywhere",
+  "short_name": "Lightning-fast access to the tab you want",
+  "description": "This extension lets you get directly at the tab you want. No more hunt-and-peck on the tab bar.",
+  "version": "0.0.1",
+  "author": "Noran Software <nathanpisarski@gmail.com>",
+  "manifest_version": 2,
+  "browser_action" : {
+    "default_icon": {
+      "16": "icon.png"
+    },
+    "default_title": "Search Everywhere",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
